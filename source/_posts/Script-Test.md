@@ -2,9 +2,11 @@
 title: Script Test
 date: 2016-03-31 14:03:37
 categories: Python
-tags:
+tags: [Python]
 ---
 
+
+就测试一下，代码高亮什么的...
 
 
 ```python
