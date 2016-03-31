@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Evinoca's Blog
-subtitle: Nothing Serious
-description: Just for fun
-author: Evinoca
+title: Audric's Play House
+subtitle: 点滴记忆汇集成生活
+description: Nothing Serious
+author: Audric
 language: zh-CN
 timezone: 
 
@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
