@@ -13,7 +13,7 @@ tags: [Go, freshman2coding]
 >Go 同时具有两种编译器，一种是建立在GCC基础上的Gccgo，另外一种是分别针对64位x64和32位x86计算机的一套编译器(6g和8g)。谷歌目前正在研发其对ARM芯片和Android设备的支持。派克表示，“Android手机存在的问题是，我们一直没有一个数学协处理器。”
 
 ---
-
+<!-- more -->
 几个月前有一阵很闲很闲，就一激灵打算学学Go语言，听说吧[^go]：
 
 [^go]: [《学习Go语言》中文版](http://mikespook.com/learning-go)
