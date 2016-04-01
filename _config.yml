@@ -69,8 +69,8 @@ theme: hexo-theme-next
 # Admin
 
 admin:
-    name: evinoca
-    password: heyhexo
+    name: hey
+    password: hexo
     secret: hey hexo
     expire: 60*1
     # cors: http://localhost:3000

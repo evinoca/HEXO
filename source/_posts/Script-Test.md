@@ -1,8 +1,10 @@
 ---
 title: Script Test
-date: 2016-03-31 14:03:37
-categories: Python
-tags: [Python]
+categories:
+  - Python
+tags:
+  - Python
+date: 2016-03-31 16:39:37
 ---
 
 

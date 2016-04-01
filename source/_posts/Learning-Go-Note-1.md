@@ -1,10 +1,14 @@
 ---
-title: Learning Go Note 1
-date: 2016-03-31 17:18:08
-categories: GO Language
-tags: [Go, freshman2coding]
+title: 边学边记  Go
+categories:
+  - GO Language
+tags:
+  - Go
+  - freshman2coding
+date: 2016-04-01 16:39:23
 ---
-![头图](https://zero-space.s3.amazonaws.com/photos/f473f476-8dd6-41fb-9146-25ebbaa8bd91x840.jpg)
+
+![image](https://zero-space.s3.amazonaws.com/photos/f473f476-8dd6-41fb-9146-25ebbaa8bd91x840.jpg)
 
 >Go语言是谷歌推出的一种全新的编程语言，可以在不损失应用程序性能的情况下降低代码的复杂性。谷歌首席软件工程师罗布派克(Rob Pike)说：我们之所以开发Go，是因为过去10多年间软件开发的难度令人沮丧。
 
