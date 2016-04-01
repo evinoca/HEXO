@@ -66,6 +66,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-next
 
+# Admin
+
+admin:
+    name: evinoca
+    password: heyhexo
+    secret: hey hexo
+    expire: 60*1
+    # cors: http://localhost:3000
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
