@@ -3,7 +3,7 @@ title: about
 date: 2016-03-30 18:18:52
 ---
 
-# 关于我自己
+# About Me
 
 
 ![夜](http://7xsfv0.com1.z0.glb.clouddn.com/%E5%A4%9C.jpg)
@@ -25,5 +25,10 @@ date: 2016-03-30 18:18:52
 算是给自己的工作中的那一点点积累找个好点儿的依靠，
 让我能感觉自己的生命，
 仍然在不停地燃烧。
+
+---
+
+友情附赠猫主子萌照一张：
+---
 
 ![喵](http://7xsfv0.com1.z0.glb.clouddn.com/%E6%9D%8E%E5%B0%8F%E8%B1%B9.jpg)
