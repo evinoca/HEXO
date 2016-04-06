@@ -121,7 +121,7 @@ Git常用操作命令收集：
 推送远程仓库：$ git push [remoteName] [localBranchName]
 强制推送更改：$ git push --force origin master
 
-* 如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，如下：
+如果想把本地的某个分支test提交到远程仓库，并作为远程仓库的master分支，或者作为另外一个名叫test的分支，如下：
 $ git push origin test:master         // 提交本地test分支作为远程的master分支
 $ git push origin test:test              // 提交本地test分支作为远程的test分支
 
@@ -148,7 +148,7 @@ $ git push origin test:test              // 提交本地test分支作为远程�
         5. git remote prune <remote>
 
 * 创建空的分支：(执行命令之前记得先提交你当前分支的修改，否则会被强制删干净没得后悔)
-         方法1：
+       方法1：
                $ git checkout --orphan <branch_name>
                $ git rm -rf *
        方法2：
@@ -267,8 +267,7 @@ Git常用操作命令 - rongjih - 拥有自己的梦想，跟随心的召唤
 改用"ls --show-control-chars"命令代替单纯的"ls"命令即可。
 或者编辑.../Git/etc/git-completion.bash，新增一行 alias ls="ls –show-control-chars"
 
-# 参考
-Reference:
+# Reference:
 1. [Git 命令参数及用法详解](http://www.open-open.com/lib/view/open1335879873983.html)
 2. [Git详解之一 Git起步 ](http://www.open-open.com/lib/view/open1328069609436.html)
 3. [Git详解之二 Git基础](http://www.open-open.com/lib/view/open1328069733264.html)
