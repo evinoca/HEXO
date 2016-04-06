@@ -1,3 +1,13 @@
+---
+title: Git的日常
+categories:
+  - Tools Collector
+tags:
+  - github
+  - git
+date: 2016-04-06 16:45:07
+---
+
 一直都是在用eclipse或者IDEA的界面来用公司给的git，github上面的代码一直用github for desktop来管理。
 以偷懒为己任的我从来也没有想过该怎么敲命令。
 
