@@ -19,9 +19,11 @@ git认为我的所有刚刚拉下来的代码全部都是新的，旧的全部�
 
 自己赶紧来学习一下Git的命令，省的以后真的用起来啥都不会到处丢人
 
-先把手册找出来翻翻 [Git User Guide](https://git-scm.com/)
+先把手册找出来翻翻看看 [Git User Guide](https://git-scm.com/)
+
 
 <!-- more -->
+
 
 1. 初始化
 ===
