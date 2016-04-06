@@ -21,6 +21,7 @@ git认为我的所有刚刚拉下来的代码全部都是新的，旧的全部�
 
 先把手册找出来翻翻 [Git User Guide](https://git-scm.com/)
 
+<!-- more -->
 
 1. 初始化
 ===
