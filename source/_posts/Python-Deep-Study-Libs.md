@@ -4,19 +4,24 @@ date: 2016-04-13 15:59:36
 categories: Python
 tags: [Python, Deep-Learning]
 ---
+世界上每天产生的数据量已经快要超过天际了，但是我们对数据的分析能力还远远不够。
+数据挖掘注定是一个必然火爆的需求点
+看了一个数据挖掘库的列表，找个时间选一个试试手。
 
 转自[Python机器学习库](http://qxde01.blog.163.com/blog/static/67335744201368101922991/)
 
-Python在科学计算领域，有两个重要的扩展模块：Numpy和Scipy。其中Numpy是一个用python实现的科学计算包。包括：
+Python在科学计算领域，有两个重要的扩展模块：Numpy和Scipy。
 
-    一个强大的N维数组对象Array；
-    比较成熟的（广播）函数库；
-    用于整合C/C++和Fortran代码的工具包；
-    实用的线性代数、傅里叶变换和随机数生成函数。
+其中Numpy是一个用python实现的科学计算包。包括：
+一个强大的N维数组对象Array；
+比较成熟的（广播）函数库；
+用于整合C/C++和Fortran代码的工具包；
+实用的线性代数、傅里叶变换和随机数生成函数。
 
-     SciPy是一个开源的Python算法库和数学工具包，SciPy包含的模块有最优化、线性代数、积分、插值、特殊函数、快速傅里叶变换、信号处理和图像处理、常微分方程求解和其他科学与工程中常用的计算。其功能与软件MATLAB、Scilab和GNU Octave类似。
+ SciPy是一个开源的Python算法库和数学工具包，SciPy包含的模块有最优化、线性代数、积分、插值、特殊函数、快速傅里叶变换、信号处理和图像处理、常微分方程求解和其他科学与工程中常用的计算。其功能与软件MATLAB、Scilab和GNU Octave类似。
 
-    Numpy和Scipy常常结合着使用，Python大多数机器学习库都依赖于这两个模块，绘图和可视化依赖于matplotlib模块，matplotlib的风格与matlab类似。Python机器学习库非常多，而且大多数开源，主要有：
+Numpy和Scipy常常结合着使用，Python大多数机器学习库都依赖于这两个模块，绘图和可视化依赖于matplotlib模块，matplotlib的风格与matlab类
+Python机器学习库非常多，而且大多数开源，主要有：
 
 <!-- more -->
 
