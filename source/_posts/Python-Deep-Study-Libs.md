@@ -1,9 +1,13 @@
 ---
 title: Python Deep Study Libs
-date: 2016-04-13 15:59:36
-categories: Python
-tags: [Python, Deep-Learning]
+categories:
+  - Python
+tags:
+  - Python
+  - Deep-Learning
+date: 2016-04-13 17:35:23
 ---
+
 世界上每天产生的数据量已经快要超过天际了，但是我们对数据的分析能力还远远不够。
 数据挖掘注定是一个必然火爆的需求点
 看了一个数据挖掘库的列表，找个时间选一个试试手。
@@ -25,7 +29,7 @@ Python机器学习库非常多，而且大多数开源，主要有：
 
 <!-- more -->
 
-1.scikit-learn
+1. scikit-learn
 ===
 scikit-learn 是一个基于SciPy和Numpy的开源机器学习模块，包括分类、回归、聚类系列算法，主要算法有SVM、逻辑回归、朴素贝叶斯、Kmeans、DBSCAN等，目前由INRI 资助，偶尔Google也资助一点。
 
@@ -35,7 +39,7 @@ https://pypi.python.org/pypi/scikit-learn/
 http://scikit-learn.org/
 https://github.com/scikit-learn/scikit-learn
 
-2.NLTK
+2. NLTK
 ===
 NLTK(Natural Language Toolkit)是Python的自然语言处理模块，包括一系列的字符处理和语言统计模型。NLTK 常用于学术研究和教学，应用的领域有语言学、认知科学、人工智能、信息检索、机器学习等。 NLTK提供超过50个语料库和词典资源，文本处理库包括分类、分词、词干提取、解析、语义推理。可稳定运行在Windows, Mac OS X和Linux平台上.
 
@@ -47,7 +51,7 @@ https://pypi.python.org/pypi/nltk/
 
 http://nltk.org/
 
-3.Mlpy
+3. Mlpy
 ===
 Mlpy是基于NumPy/SciPy的Python机器学习模块，它是Cython的扩展应用。包含的机器学习算法有：
 
@@ -69,7 +73,7 @@ http://sourceforge.net/projects/mlpy
 
 https://mlpy.fbk.eu/
 
-4.Shogun  
+4. Shogun  
 ===
 Shogun是一个开源的大规模机器学习工具箱。目前Shogun的机器学习功能分为几个部分：feature表示，feature预处理， 核函数表示,核函数标准化，距离表示，分类器表示，聚类方法，分布， 性能评价方法，回归方法，结构化输出学习器。
 
@@ -79,7 +83,7 @@ SHOGUN 的核心由C++实现，提供 Matlab、 R、 Octave、 Python接口。�
 
 http://www.shogun-toolbox.org/
 
-5.MDP
+5. MDP
 ===
 The Modular toolkit for Data Processing (MDP) ，用于数据处理的模块化工具包，一个Python数据处理框架。
 
@@ -91,7 +95,7 @@ http://mdp-toolkit.sourceforge.net/
 
 https://pypi.python.org/pypi/MDP/
 
-6.PyBrain
+6. PyBrain
 ===
 PyBrain(Python-Based Reinforcement Learning, Artificial Intelligence and Neural Network)是Python的一个机器学习模块，它的目标是为机器学习任务提供灵活、易应、强大的机器学习算法。（这名字很霸气）
 
@@ -103,7 +107,7 @@ http://www.pybrain.org/
 
 https://github.com/pybrain/pybrain/
 
-7.BigML
+7. BigML
 ===
 BigML 使得机器学习为数据驱动决策和预测变得容易，BigML使用容易理解的交互式操作创建优雅的预测模型。BigML使用BigML.io,捆绑Python。
 
@@ -115,7 +119,7 @@ https://pypi.python.org/pypi/bigml
 
 http://bigml.readthedocs.org/
 
-8.PyML
+8. PyML
 ===
 PyML是一个Python机器学习工具包， 为各分类和回归方法提供灵活的架构。它主要提供特征选择、模型选择、组合分类器、分类评估等功能。
 
@@ -125,7 +129,7 @@ http://cmgm.stanford.edu/~asab/pyml/tutorial/
 
 http://pyml.sourceforge.net/
 
-9.Milk
+9. Milk
 ===
 Milk是Python的一个机器学习工具箱，其重点是提供监督分类法与几种有效的分类分析：SVMs(基于libsvm)，K-NN，随机森林经济和决策树。它还可以进行特征选择。这些分类可以在许多方面相结合，形成不同的分类系统。
 
@@ -137,7 +141,7 @@ https://pypi.python.org/pypi/milk/
 
 http://luispedro.org/software/milk
 
-10.PyMVPA
+10. PyMVPA
 ===
 PyMVPA(Multivariate Pattern Analysis in Python)是为大数据集提供统计学习分析的Python工具包，它提供了一个灵活可扩展的框架。它提供的功能有分类、回归、特征选择、数据导入导出、可视化等
 
@@ -146,7 +150,7 @@ PyMVPA(Multivariate Pattern Analysis in Python)是为大数据集提供统计学
 http://www.pymvpa.org/
 https://github.com/PyMVPA/PyMVPA
 
-11.Pattern
+11. Pattern
 ===
 Pattern是Python的web挖掘模块，它绑定了  Google、Twitter 、Wikipedia API，提供网络爬虫、HTML解析功能，文本分析包括浅层规则解析、WordNet接口、句法与语义分析、TF-IDF、LSA等，还提供聚类、分类和图网络可视化的功能。
 
@@ -155,14 +159,14 @@ Pattern是Python的web挖掘模块，它绑定了  Google、Twitter 、Wikipedia
 http://www.clips.ua.ac.be/pages/pattern
 https://pypi.python.org/pypi/Pattern
 
-12.pyrallel
+12. pyrallel
 ===
 Pyrallel(Parallel Data Analytics in Python)基于分布式计算模式的机器学习和半交互式的试验项目，可在小型集群上运行，适用范围：
-focus on small to medium dataset that fits in memory on a small (10+ nodes) to medium cluster (100+ nodes).
-focus on small to medium data (with data locality when possible).
-focus on CPU bound tasks (e.g. training Random Forests) while trying to limit disk / network access to a minimum.
-do not focus on HA / Fault Tolerance (yet).
-do not try to invent new set of high level programming abstractions (yet): use a low level programming model (IPython.parallel) to finely control the cluster elements and messages transfered and help identify what are the practical underlying constraints in distributed machine learning setting.
++ focus on small to medium dataset that fits in memory on a small (10+ nodes) to medium cluster (100+ nodes).
++ focus on small to medium data (with data locality when possible).
++ focus on CPU bound tasks (e.g. training Random Forests) while trying to limit disk / network access to a minimum.
++ do not focus on HA / Fault Tolerance (yet).
++ do not try to invent new set of high level programming abstractions (yet): use a low level programming model (IPython.parallel) to finely control the cluster elements and messages transfered and help identify what are the practical underlying constraints in distributed machine learning setting.
 
 项目主页：
 
@@ -170,7 +174,7 @@ https://pypi.python.org/pypi/pyrallel
 
 http://github.com/pydata/pyrallel
 
-13.Monte
+13. Monte
 ===
 Monte ( machine learning in pure Python)是一个纯Python机器学习库。它可以迅速构建神经网络、条件随机场、逻辑回归等模型，使用inline-C优化，极易使用和扩展。
 
@@ -180,7 +184,7 @@ https://pypi.python.org/pypi/Monte
 
 http://montepython.sourceforge.net
 
-14.Orange
+14. Orange
 ===
 Orange 是一个基于组件的数据挖掘和机器学习软件套装，它的功能即友好，又很强大，快速而又多功能的可视化编程前端，以便浏览数据分析和可视化，基绑定了 Python以进行脚本开发。它包含了完整的一系列的组件以进行数据预处理，并提供了数据帐目，过渡，建模，模式评估和勘探的功能。其由C++ 和 Python开发，它的图形库是由跨平台的Qt框架开发。
 
@@ -190,28 +194,28 @@ https://pypi.python.org/pypi/Orange/
 
 http://orange.biolab.si/
 
-15.Theano
+15. Theano
 ===
 Theano 是一个 Python 库，用来定义、优化和模拟数学表达式计算，用于高效的解决多维数组的计算问题。Theano的特点：
 
-紧密集成Numpy
-高效的数据密集型GPU计算
-高效的符号微分运算
-高速和稳定的优化
-动态生成c代码
-广泛的单元测试和自我验证
++ 紧密集成Numpy
++ 高效的数据密集型GPU计算
++ 高效的符号微分运算
++ 高速和稳定的优化
++ 动态生成c代码
++ 广泛的单元测试和自我验证
 
 自2007年以来，Theano已被广泛应用于科学运算。theano使得构建深度学习模型更加容易，可以快速实现下列模型：
 
-Logistic Regression
-Multilayer perceptron
-Deep Convolutional Network
-Auto Encoders, Denoising Autoencoders
-Stacked Denoising Auto-Encoders
-Restricted Boltzmann Machines
-Deep Belief Networks
-HMC Sampling
-Contractive auto-encoders
++ Logistic Regression
++ Multilayer perceptron
++ Deep Convolutional Network
++ Auto Encoders, Denoising Autoencoders
++ Stacked Denoising Auto-Encoders
++ Restricted Boltzmann Machines
++ Deep Belief Networks
++ HMC Sampling
++ Contractive auto-encoders
 
 Theano，一位希腊美女，Croton最有权势的Milo的女儿，后来成为了毕达哥拉斯的老婆。
 
@@ -221,22 +225,22 @@ http://deeplearning.net/tutorial/
 
 https://pypi.python.org/pypi/Theano
 
-16.Pylearn2
+16. Pylearn2
 ===
 Pylearn2建立在theano上，部分依赖scikit-learn上，目前Pylearn2正处于开发中，将可以处理向量、图像、视频等数据，提供MLP、RBM、SDA等深度学习模型。
 Pylearn2的目标是：
 
-Researchers add features as they need them. We avoid getting bogged down by too much top-down planning in advance.
-A machine learning toolbox for easy scientific experimentation.
-All models/algorithms published by the LISA lab should have reference implementations in Pylearn2.
-Pylearn2 may wrap other libraries such as scikits.learn when this is practical
-Pylearn2 differs from scikits.learn in that Pylearn2 aims to provide great flexibility and make it possible for a researcher to do almost anything, while scikits.learn aims to work as a “black box” that can produce good results even if the user does not understand the implementation
-Dataset interface for vector, images, video, ...
-Small framework for all what is needed for one normal MLP/RBM/SDA/Convolution experiments.
-Easy reuse of sub-component of Pylearn2.
-Using one sub-component of the library does not force you to use / learn to use all of the other sub-components if you choose not to.
-Support cross-platform serialization of learned models.
-Remain approachable enough to be used in the classroom (IFT6266 at the University of Montreal).
++ Researchers add features as they need them. We avoid getting bogged down by too much top-down planning in advance.
++ A machine learning toolbox for easy scientific experimentation.
++ All models/algorithms published by the LISA lab should have reference implementations in Pylearn2.
++ Pylearn2 may wrap other libraries such as scikits.learn when this is practical
++ Pylearn2 differs from scikits.learn in that Pylearn2 aims to provide great flexibility and make it possible for a researcher to do almost anything, while scikits.learn aims to work as a “black box” that can produce good results even if the user does not understand the implementation
++ Dataset interface for vector, images, video, ...
++ Small framework for all what is needed for one normal MLP/RBM/SDA/Convolution experiments.
++ Easy reuse of sub-component of Pylearn2.
++ Using one sub-component of the library does not force you to use / learn to use all of the other sub-components if you choose not to.
++ Support cross-platform serialization of learned models.
++ Remain approachable enough to be used in the classroom (IFT6266 at the University of Montreal).
 
 项目主页：
 
