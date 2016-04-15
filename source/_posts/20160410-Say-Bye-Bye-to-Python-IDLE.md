@@ -1,5 +1,5 @@
 ---
-title: 20160413 Say Bye Bye to Python IDLE
+title: Say Bye Bye to Python IDLE
 date: 2016-04-10 18:59:32
 categories: Python
 tags: [Python, ptpython, IDE]
@@ -14,15 +14,15 @@ tags: [Python, ptpython, IDE]
 然后
 ===
 
-<!--more-->
-
 后来为了做GUI学wxpython，开始用eclipse+pydev，终于可以debug了也终于可以跟cmd说拜拜了
 
 再后来，由于有些库刚上手需要找个地儿练练手，加上写一些小工具也没啥难度只要拼拼凑凑就行了，我就又开始嫌弃eclipse这种慢吞吞的货，回到了最初的原点：python IDLE
 
 ![](http://7xsfv0.com1.z0.glb.clouddn.com//clipboard_tmp_20160415_112402_745000.jpg)
 
-好歹这个东西可以智能提示对吧，也能写点儿小函数试试手，写点儿小代码也是凑活能用的关键还是快对吧
+好歹这个东西可以智能提示对吧，也能写点儿小函数试试手，写点儿小代码也是凑活能用的关键还是要快就行，对吧
+
+<!--more-->
 
 但是费劲的是这玩意儿咋不能写一个行号呢...
 
