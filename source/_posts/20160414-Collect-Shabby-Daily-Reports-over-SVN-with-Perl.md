@@ -1,5 +1,5 @@
 ---
-title: 简单问题简单处理: Perl来汇总零散的Txt文件
+title: 简单问题简单处理-Perl来汇总零散的Txt文件
 date: 2016-04-14 19:03:48
 categories: Perl
 tags: [Perl,自娱自乐]
