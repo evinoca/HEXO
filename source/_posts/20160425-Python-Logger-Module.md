@@ -48,6 +48,7 @@ logger.info("creating an instance of auxiliary_module.Auxiliary")
 
     2016-04-25 16:42:34,802 - spam_application - INFO - creating an instance of auxiliary_module.Auxiliary
     
+<!--more-->
 
 setLevel： 配置logger的告警等级
 
