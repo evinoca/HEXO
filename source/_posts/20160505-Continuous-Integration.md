@@ -21,6 +21,8 @@ Martin Fowler, who first wrote about [Continuous Integration](http://martinfowle
 
 > Continuous Integration is a software development practice where members ofa team integrate their work frequently, usually each person integrates atleast daily - leading to multiple integrations per day. Each integration isverified by an automated build (including test) to detect integration errorsas quickly as possible. Many teams find that this approach leads tosignificantly reduced integration problems and allows a team to developcohesive software more rapidly.
 
+<!--more-->
+
 ## Jenkins
 
 [Jenkins CI](http://jenkins-ci.org) is an extensible continuous integrationengine. Use it.
