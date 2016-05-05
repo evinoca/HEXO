@@ -1,5 +1,5 @@
 ---
-title: 20160505-Continuous-Integration
+title: Continuous Integration
 date: 2016-05-05 16:30:33
 categories: Tools Collector
 tags: Tools
@@ -7,7 +7,11 @@ tags: Tools
 
 
 
-决定将持续集成加入自学列表中，下文来自http://docs.python-guide.org/en/latest/scenarios/ci/
+决定将持续集成加入自学列表中，虽然一直在用Jenkins但是一直也没有认真研究过还有什么可以扩展的地方。
+
+另外打算找时间学一下buildBot
+
+下文来自http://docs.python-guide.org/en/latest/scenarios/ci/
 
 # Continuous Integration
 
