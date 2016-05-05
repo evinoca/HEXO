@@ -1,5 +1,5 @@
 ---
-title: 20160425 Python Logger Module
+title: Python Logger 模块简单一记
 date: 2016-04-25 18:27:21
 categories: Python
 tags: [Python]
