@@ -5,6 +5,20 @@ categories: Javascript
 tags: [Javascript]
 ---
 
+
+
+![](http://7xsfv0.com1.z0.glb.clouddn.com//clipboard_tmp_20160505_165716_428000.jpg)
+
+
+
+
+
+![](http://7xsfv0.com1.z0.glb.clouddn.com//clipboard_tmp_20160505_165925_544000.jpg)
+
+
+
+![](http://7xsfv0.com1.z0.glb.clouddn.com//clipboard_tmp_20160505_170012_082000.jpg)
+
 # Javascript注释
 
 ## 行内注释
