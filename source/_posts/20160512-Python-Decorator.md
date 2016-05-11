@@ -1,5 +1,5 @@
 ---
-title: 20160512 Python Decorator
+title: Python Decorator
 date: 2016-05-11 18:51:36
 categories: Python
 tags: [Python]
