@@ -17,6 +17,6 @@ tags: [自娱自乐,Front-End-Dev]
 
 恩，就这样
 
-![web前端开发学习路线](http://img.caibaojian.com/uploads/2015/08/9358d109b3de9c829485ae026c81800a18d8435e.jpg)
+![](http://7xsfv0.com1.z0.glb.clouddn.com//clipboard_tmp_20160518_185027_425000.jpg)
 
 来自[web前端开发学习路线](http://caibaojian.com/web-frontend-roads.html)
