@@ -1,5 +1,5 @@
 ---
-title: 记两个Python小题目
+title: 滥竽充数：随手记两个Python小题目
 date: 2016-06-29 14:27:44
 categories: Python
 tags: Python
@@ -28,20 +28,22 @@ testMatrix = [[ 1, 2, 3, 4, 5, 6, 7, 8, 9],
 
 结题思路就是判断每次到达顶角位置转向，完成一圈之后向内部偏移一个位置
 
+虽然现在想着挺清楚的，当时听到这么一个题儿那叫一个蒙
+
 ```python
 # -*- coding: utf-8 -*-
-	  '''
-      Created on 2016年6月23日
+'''
+Created on 2016年6月23日
 
-      @author: Audric Sun
-      '''
+@author: Audric Sun
+'''
 
 testMatrix = [[ 1, 2,   3,  4,  5,  6,  7, 8,  9],
-              [10,11,12,13,14,15,16,17,18],
-              [19,20,21,22,23,24,25,26,27],
-              [28,29,30,31,32,33,34,35,36],
-              [37,38,39,40,41,42,43,44,45],
-              [46,47,48,49,50,51,52,53,54]]
+                    [10,11,12,13,14,15,16,17,18],
+                    [19,20,21,22,23,24,25,26,27],
+                    [28,29,30,31,32,33,34,35,36],
+                    [37,38,39,40,41,42,43,44,45],
+                    [46,47,48,49,50,51,52,53,54]]
 
 
 def readMatrix(matrix):
@@ -54,39 +56,39 @@ def readMatrix(matrix):
     d = 0
     c = l1*l2
     while c>0:
-
+        
         print pos,d,offset,c,matrix[pos[0]][pos[1]]
-
+        
         if pos[0]==0+offset and pos[1]==0+offset:
             d = 0            
-            elif  pos[0]==0+offset and pos[1]==l2-offset-1 :
-                d = 1
-                elif  pos[0]==l1-offset-1 and pos[1]==l2-offset-1 :
-                    d = 2
-                    elif  pos[0]==l1-offset-1 and pos[1]==0+offset :    
-                        d = 3
-                        else:
-                            d = d
-
-                            if d == 0 :
-                                pos[1]+=1
-                                elif d ==1:
-                                    pos[0]+=1
-                                    elif d==2:
-                                        pos[1]-=1
-                                        elif d==3:
-                                            pos[0]-=1
-                                            else:
-                                                raise
-
-                                                if pos==[0+offset,0+offset]:
-                                                    offset+=1
-                                                    pos[0]+=1
-                                                    pos[1]+=1
-
-                                                    c-=1
-                                                    if __name__ == '__main__':
-                                                        readMatrix(testMatrix)
+        elif  pos[0]==0+offset and pos[1]==l2-offset-1 :
+            d = 1
+        elif  pos[0]==l1-offset-1 and pos[1]==l2-offset-1 :
+            d = 2
+        elif  pos[0]==l1-offset-1 and pos[1]==0+offset :    
+            d = 3
+        else:
+            d = d
+        
+        if d == 0 :
+            pos[1]+=1
+        elif d ==1:
+            pos[0]+=1
+        elif d==2:
+            pos[1]-=1
+        elif d==3:
+            pos[0]-=1
+        else:
+            raise
+        
+        if pos==[0+offset,0+offset]:
+            offset+=1
+            pos[0]+=1
+            pos[1]+=1
+        
+        c-=1
+if __name__ == '__main__':
+    readMatrix(testMatrix)
 ```
 
 # 计算多维数组
@@ -106,6 +108,13 @@ def readMatrix(matrix):
 递归呗...
 
 ```python
+# -*- coding: utf-8 -*-
+'''
+Created on 2016年6月23日
+
+@author: Audric Sun
+'''
+
 list = [1,[2,[3,[4,[5,[6,[7]]]]]]]
 
 def calc(list,recrusiveDepth=1):
@@ -123,7 +132,6 @@ def calc(list,recrusiveDepth=1):
 
 
 print calc(list)
-
 ```
 
 ```shell
